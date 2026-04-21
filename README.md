@@ -1,4 +1,3 @@
-````md
 # 📰 Wired Data Pipeline (Big Data Infrastructure)
 
 Project ini merupakan implementasi pipeline data end-to-end untuk mengambil, memproses, dan menyimpan data artikel dari Wired.com menggunakan teknologi Big Data.
@@ -17,7 +16,7 @@ Project ini merupakan implementasi pipeline data end-to-end untuk mengambil, mem
 
 ---
 
-## 🔄 Alur Pipeline
+## Alur Pipeline
 
 ```text
 Scraping → JSON/CSV → FastAPI → Airflow DAG → PostgreSQL → SQL Query
@@ -136,7 +135,7 @@ WHERE
 
 ---
 
-## 🧠 Langkah Singkat yang Dilakukan
+## Langkah Singkat yang Dilakukan
 
 1. Melakukan scraping artikel dari Wired menggunakan Selenium
 2. Menyimpan data ke format JSON dan CSV
